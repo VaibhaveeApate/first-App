@@ -1,0 +1,77 @@
+{
+    "vehicles":[
+        
+        {
+            "id":1,
+            "image":"https://images.pexels.com/photos/22815218/pexels-photo-22815218/free-photo-of-black-old-fashioned-car.png?auto=compress&cs=tinysrgb&w=600",
+            "name":"Ford Mustang",
+            "price":2000000,
+            "mileage":14000,
+            "color":"Black",
+            "seats":4,
+            "fuel":"Petrol",
+            "gear":"Manual",
+            "description":"Classic car"
+        },
+        {
+            "id":2,
+            "image":"https://mocah.org/uploads/posts/731334-2012-morgan-plus-8-Morgan-Motor-Company-Roads-Black.jpg",
+            "name":"Morgan plus four",
+            "price":2100000,
+            "mileage":15000,
+            "color":"Black",
+            "seats":2,
+            "fuel":"Petrol",
+            "gear":"Manual",
+            "description":"Classic car retro"
+        },
+        {
+            "id":3,
+            "image":"https://wallpaperaccess.com/full/2543106.jpg",
+            "name":"Cadillac coupe DeVille 1959",
+            "price":1900000,
+            "mileage":13000,
+            "color":"Black",
+            "seats":2,
+            "fuel":"Petrol",
+            "gear":"Manual",
+            "description":" 1959 Classic style"
+        },
+        {
+            "id":4,
+            "image":"https://cdn.wallpapersafari.com/78/80/5dUCkD.jpg",
+            "name":"Shelby  mustang gt500e",
+            "price":250000,
+            "mileage":15000,
+            "color":"Black",
+            "seats":2,
+            "fuel":"Petrol",
+            "gear":"Manual",
+            "description":"The monster"
+        },
+        {
+            "id":5,
+            "image":"https://cdn.wallpapersafari.com/3/47/WkOlq6.jpg",
+            "name":"Jaguar E-Type",
+            "price":260000,
+            "mileage":14000,
+            "color":"Black",
+            "seats":2,
+            "fuel":"Petrol",
+            "gear":"Manual",
+            "description":"Sports"
+        },
+        {
+            "id":6,
+            "image":"https://wallpapercave.com/wp/wp6543630.jpg",
+            "name":"Pontiac GTO 1967",
+            "price":240000,
+            "mileage":13000,
+            "color":"Black",
+            "seats":4,
+            "fuel":"Petrol",
+            "gear":"Manual",
+            "description":"Muscle Car"
+        }
+    ]
+}
