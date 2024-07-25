@@ -11,22 +11,16 @@ function Footer(){
       <Link className="nav-link" to="/">Home</Link>
       
       <li className="nav-item">
-        <Link className="nav-link" to="/about">About Us</Link>
+        <Link className="nav-link" to="/add">AddQuestion</Link>
       </li>
       <li className="nav-item">
-      <Link className="nav-link" to="/vehicle-list">Vehicles</Link>
+      <Link className="nav-link" to="/manage">ManageQuestions</Link>
       </li>
-      <li className="nav-item">
-      <Link className="nav-link" to="/about">Services</Link>
-      </li>
-      <li className="nav-item">
-      <Link className="nav-link" to="/about">Contact</Link>
-      </li>
-      
+          
       
     </ul>
     <div data-testid="footer-content">
-    <p className="text-center text-body-secondary"  data-bs-theme="dark" >© 2024 ABC Automobiles </p>
+    <p className="text-center text-body-secondary"  data-bs-theme="dark" >© Quiz App </p>
     </div>
   </footer>
 </div>

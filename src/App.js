@@ -1,25 +1,26 @@
-import Menu from "./components/Menu";
-import About from "./components/About";
-import Footer from "./components/Footer";
-import Home from "./components/Home";
-import { Route,Routes } from "react-router-dom";
-import VehicleList from "./components/VehicleList";
+// src/App.js
+import React from 'react';
+import { Route, Routes } from 'react-router-dom';
+import NavBar from './NavBar';
+import Home from './Home';
+import AddQuestion from './AddQuestion';
+import ManageQuestions from './ManageQuestions';
+import Footer from './Footer';
 
-
-
-function App(){
+function App() {
   return (
-    <>
-    <Menu/>
-    <Routes>
-      <Route path="/" element={<Home/>} />
-      <Route path="/about" element={<About/>}/>
-      <Route path="/vehicle-list" element={<VehicleList/>}/>
-    </Routes>
-    <Footer/>
-    </>
-  )
+    <div className="App">
+      <NavBar />
+      
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/add" element={<AddQuestion />} />
+        <Route path="/manage" element={<ManageQuestions />} />
+        <Route path="/manage-questions" element={<ManageQuestions />} />
+      </Routes>
+      <Footer/>
+    </div>
+  );
 }
-
 
 export default App;
